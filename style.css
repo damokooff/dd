@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* ciel */
+#sky {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  transition: background 2s;
+}
+
+/* soleil */
+#sun {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  box-shadow: 0 0 50px yellow;
+  transition: all 2s;
+}
+
+/* lune */
+#moon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ddd;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  box-shadow: 0 0 30px white;
+  transition: all 2s;
+}
+
+/* panel météo */
+.panel {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
